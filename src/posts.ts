@@ -6,8 +6,8 @@ export const posts: {
 }[] = [];
 
 posts.push({
-  title: "Hello ABAP",
+  title: "abaplint.app available on GitHub Marketplace",
   date: "2021-04-20",
-  key: "hello-abap",
-  body: `hello world`,
+  key: "abaplint-available-on-github-marketplace",
+  body: `TBD`,
 });
