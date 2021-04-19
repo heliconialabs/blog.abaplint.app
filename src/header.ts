@@ -14,7 +14,7 @@ export function header() {
   <body>
   <nav class="navbar navbar-expand-md navbar-dark pt-1 pb-1 sticky-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">abaplint.app</a>
+      <a class="navbar-brand" href="https://abaplint.app">abaplint.app</a>
     </div>
   </nav>
   <main class="container">`;
