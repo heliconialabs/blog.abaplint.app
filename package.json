@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "description": "blog.abaplint.app",
   "scripts": {
-    "test": "ts-node src/index.ts"
+    "test": "ts-node src/index.ts",
+    "simpleserver": "yaserver --root ./public/ --port 8888"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,9 @@
   "dependencies": {
     "@types/node": "^14.14.41",
     "ts-node": "^9.1.1",
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-icons": "^1.4.1",
+    "yaserver": "^0.3.0",
     "typescript": "^4.2.4"
   }
 }

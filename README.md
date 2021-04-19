@@ -1,2 +1,3 @@
 # blog.abaplint.app
-blog.abaplint.app
+
+https://blog.abaplint.app
