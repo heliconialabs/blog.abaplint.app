@@ -10,6 +10,7 @@ export function header() {
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="/bootstrap-icons.css">
     <link rel="icon" href="/favicon.png">
+    <meta property="og:image" content="https://blog.abaplint.app/favicon.png" />
   </head>
   <body>
   <nav class="navbar navbar-expand-md navbar-dark pt-1 pb-1 sticky-top bg-dark">
