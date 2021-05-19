@@ -28,7 +28,7 @@ function render(): string {
   for (const post of posts) {
     r += `<h2>${post.title}</h2>
     <i>${post.date}</i><br>
-    ${post.body}`
+    ${post.body}<br><br>`
   }
   return r;
 }
