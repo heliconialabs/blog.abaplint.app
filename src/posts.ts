@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Observations, zero output",
+    date: "2021-05-22",
+    key: "observations-zero-output",
+    body: `A new feature "Observations" is in development, it will output a check run to each pull request, but not report any error status.`,
+  },
+
+  {
     title: "Updates, Week 20",
     date: "2021-05-19",
     key: "updates-week-20",
@@ -15,6 +22,7 @@ posts.push(
 abaplint.app has been updated to run the latest abaplint, which have had numerous updates containing bugfixes.<br>
 The version can be found in the check run log.`,
   },
+
   {
   title: "abaplint.app available on GitHub Marketplace",
   date: "2021-04-20",

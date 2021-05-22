@@ -24,7 +24,7 @@ function deleteFolderRecursive(p: string) {
 }
 
 function render(): string {
-  let r = "";
+  let r = "<br>";
   for (const post of posts) {
     r += `<h2>${post.title}</h2>
     <i>${post.date}</i><br>
