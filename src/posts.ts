@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "abaplint 2.75 released",
+    date: "2021-07-16",
+    key: "abaplint-275-released",
+    body: `abaplint 2.75.0 has been released with a new rule <a href="https://rules.abaplint.org/unused_ddic/">unused_ddic</a>, this rule can help finding artifacts which are not referenced statically.`,
+  },
+
+  {
     title: "Observations, zero output",
     date: "2021-05-22",
     key: "observations-zero-output",
