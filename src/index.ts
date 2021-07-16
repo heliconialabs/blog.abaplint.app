@@ -15,7 +15,7 @@ function deleteFolderRecursive(p: string) {
   for (const file of files) {
     const curPath = p + path.sep + file;
     if (fs.lstatSync(curPath).isDirectory()) {
-      this.deleteFolderRecursive(curPath);
+      deleteFolderRecursive(curPath);
     } else {
       fs.unlinkSync(curPath);
     }
