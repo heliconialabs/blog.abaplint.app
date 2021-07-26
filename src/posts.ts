@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "abaplint 2.76 released",
+    date: "2021-07-26",
+    key: "abaplint-276-released",
+    body: `New rule <a href="https://rules.abaplint.org/cyclic_oo/">cyclic_oo</a> published`,
+  },
+
+  {
     title: "abaplint 2.75 released",
     date: "2021-07-16",
     key: "abaplint-275-released",
