@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.77.2",
+    date: "2021-08-28",
+    key: "abaplint-277-update",
+    body: `abaplint.app has been updated to abaplint 2.77.2, note that rule "many_parenthesis" has been renamed to "many_parentheses"`,
+  },
+
+  {
     title: "abaplint 2.76 released",
     date: "2021-07-26",
     key: "abaplint-276-released",
