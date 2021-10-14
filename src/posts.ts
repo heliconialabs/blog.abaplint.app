@@ -7,6 +7,16 @@ export const posts: {
 
 posts.push(
   {
+    title: "New Observation - Database field changed",
+    date: "2021-10-14",
+    key: "new-observation-db-field-changed",
+    body: `This new observation helps discovering database changes during ABAP code review and impact analysis.<br>
+Field types that are changed, added or removed is reported.<br>
+This new observation is enabled by default for all repositories using abaplint.app<br>
+<a href="https://github.com/heliconialabs/observation-db_field_changed/pull/2/checks?check_run_id=3891521376"><img src="./observation_db_field_changed.svg"></a>`,
+  },
+
+  {
     title: "Updated to abaplint 2.77.2",
     date: "2021-08-28",
     key: "abaplint-277-update",
