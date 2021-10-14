@@ -2,6 +2,7 @@ export function header() {
   return `<!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src localhost:* https:">
     <meta charset="utf-8">
     <title>abaplint.app - ABAP Static Analysis & Continuous Integration</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
