@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.80.0",
+    date: "2021-11-03",
+    key: "abaplint-280-update",
+    body: `abaplint.app is continiously updated to run the latest abaplint.<br>
+Today abaplint 2.80.0 was released including a new rule <a href="https://rules.abaplint.org/align_parameters/"><tt>align_parameters</tt></a>`,
+  },
+
+  {
     title: "New Observation - Database field changed",
     date: "2021-10-14",
     key: "new-observation-db-field-changed",
