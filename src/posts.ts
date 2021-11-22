@@ -7,6 +7,17 @@ export const posts: {
 
 posts.push(
   {
+    title: "abaplint 2.81.0 published",
+    date: "2021-11-22",
+    key: "abaplint-281-published",
+    body: `Including the following new rules:
+<ul>
+<li><a href="https://rules.abaplint.org/no_chained_assignment/"><tt>no_chained_assignment</tt></a></li>
+<li><a href="https://rules.abaplint.org/unnecessary_chaining/"><tt>unnecessary_chaining</tt></a></li>
+</ul>`,
+  },
+
+  {
     title: "Updated to abaplint 2.80.0",
     date: "2021-11-03",
     key: "abaplint-280-update",
