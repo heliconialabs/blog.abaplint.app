@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/heliconialabs/blog.abaplint.app#readme",
   "dependencies": {
-    "@types/node": "^16.11.6",
+    "@types/node": "^16.11.9",
     "ts-node": "^10.4.0",
     "bootstrap": "^5.1.3",
-    "bootstrap-icons": "^1.7.0",
+    "bootstrap-icons": "^1.7.1",
     "yaserver": "^0.4.0",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.2"
   }
 }
