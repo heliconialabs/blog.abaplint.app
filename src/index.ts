@@ -43,7 +43,9 @@ function run() {
   fs.copyFileSync(__dirname + "/../node_modules/bootstrap/dist/css/bootstrap.min.css", OUTPUT + "bootstrap.min.css");
   fs.copyFileSync(__dirname + "/../node_modules/bootstrap-icons/font/bootstrap-icons.css", OUTPUT + "bootstrap-icons.css");
   fs.copyFileSync(__dirname + "/../img/favicon.png", OUTPUT + "favicon.png");
+
   fs.copyFileSync(__dirname + "/../img/observation_db_field_changed.svg", OUTPUT + "observation_db_field_changed.svg");
+  fs.copyFileSync(__dirname + "/../img/multiple_config.svg", OUTPUT + "multiple_config.svg");
 }
 
 run();

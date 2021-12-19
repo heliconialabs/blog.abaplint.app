@@ -7,6 +7,29 @@ export const posts: {
 
 posts.push(
   {
+    title: "Running multiple configurations",
+    date: "2021-12-19",
+    key: "multiple-configurations",
+    body: `By adding a configuration file <tt>abaplint-app.json</tt> in the repository root,
+<br>
+<pre>
+{
+  "configurations": {
+    "default": {
+      "filename": "./abaplint.jsonc"
+    },
+    "v740sp05": {
+      "filename": "./abaplintonprem.jsonc"
+    }
+  }
+}
+</pre>
+multiple configurations will be analyzed, and reported accordingly,<br>
+
+<img class="shadow p-3 bg-white rounded" src="./multiple_config.svg">`,
+  },
+
+  {
     title: "abaplint 2.81.0 published",
     date: "2021-11-22",
     key: "abaplint-281-published",
@@ -32,7 +55,8 @@ Today abaplint 2.80.0 was released including a new rule <a href="https://rules.a
     body: `This new observation helps discovering database changes during ABAP code review and impact analysis.<br>
 Field types that are changed, added or removed is reported.<br>
 This new observation is enabled by default for all repositories using abaplint.app<br>
-<a href="https://github.com/heliconialabs/observation-db_field_changed/pull/2/checks?check_run_id=3891521376"><img src="./observation_db_field_changed.svg"></a>`,
+<br>
+<a href="https://github.com/heliconialabs/observation-db_field_changed/pull/2/checks?check_run_id=3891521376"><img class="shadow p-3 bg-white rounded" src="./observation_db_field_changed.svg"></a>`,
   },
 
   {
