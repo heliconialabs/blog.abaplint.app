@@ -7,6 +7,20 @@ export const posts: {
 
 posts.push(
   {
+    title: "Minor documentation updates",
+    date: "2022-01-25",
+    key: "minor-docs-jan2022",
+    body: `Minor updates to <a href="https://docs.abaplint.app">abaplint.app Documentation</a>
+<br><br>
+abaplint.app is continiously updated to use the latest abaplint, since the last update, the following rules have been added,
+<ul>
+<li>2.84.0, new rule <a href="https://rules.abaplint.org/omit_preceding_zeros/">omit_preceding_zeros</a></li>
+<li>2.83.0, new rules <a href="https://rules.abaplint.org/no_aliases/">no_aliases</a> &amp; <a href="https://rules.abaplint.org/prefer_corresponding/">prefer_corresponding</a></li>
+<li>2.82.0, new rule <a href="https://rules.abaplint.org/static_call_via_instance/">static_call_via_instance</a></li>
+</ul>`,
+  },
+
+  {
     title: "Running multiple configurations",
     date: "2021-12-19",
     key: "multiple-configurations",
