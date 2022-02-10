@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "Listing repository relations",
+    date: "2022-02-10",
+    key: "list-repo-relations",
+    body: `All repositories will now have their dependencies listed, example:<br>
+    <a href="https://abaplint.app/stats/abapedia/object-existence/repo_relations"><img class="shadow p-3 bg-white rounded" src="./repo_relations.png"></a>`,
+  },
+
+  {
     title: "Minor documentation updates",
     date: "2022-01-25",
     key: "minor-docs-jan2022",
