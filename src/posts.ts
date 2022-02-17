@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Database key field changes reported as observations",
+    date: "2022-02-17",
+    key: "db-key-field-changes-observations",
+    body: `Adding or removing key fields for transparent database tables are now reported as observations.`,
+  },
+
+  {
     title: "Listing repository relations",
     date: "2022-02-10",
     key: "list-repo-relations",
