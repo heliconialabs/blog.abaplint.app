@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "More hardware, faster results",
+    date: "2022-02-18",
+    key: "more-hardware-faster-results",
+    body: `The hardware running abaplint.app has been updated, customers should experience faster check runs.`,
+  },
+
+  {
     title: "Database key field changes reported as observations",
     date: "2022-02-17",
     key: "db-key-field-changes-observations",
