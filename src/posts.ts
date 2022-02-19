@@ -7,6 +7,16 @@ export const posts: {
 
 posts.push(
   {
+    title: "Cross repository syntax check before merge",
+    date: "2022-02-19",
+    key: "new-cross-check-feature",
+    body: `Based on the repsitory relations, abaplint.app will now trigger cross repository syntax checks for all pushes to pull requests.
+The feature is immediately available for both public and private repositories.
+For additional information refer to the <a href="https://docs.abaplint.app">documentation</a>.<br>
+<img class="shadow p-3 bg-white rounded" src="./cross_check.svg">`,
+  },
+
+  {
     title: "More hardware, faster results",
     date: "2022-02-18",
     key: "more-hardware-faster-results",

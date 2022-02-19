@@ -47,6 +47,7 @@ function run() {
   fs.copyFileSync(__dirname + "/../img/observation_db_field_changed.svg", OUTPUT + "observation_db_field_changed.svg");
   fs.copyFileSync(__dirname + "/../img/multiple_config.svg", OUTPUT + "multiple_config.svg");
   fs.copyFileSync(__dirname + "/../img/repo_relations.png", OUTPUT + "repo_relations.png");
+  fs.copyFileSync(__dirname + "/../img/cross_check.svg", OUTPUT + "cross_check.svg");
 }
 
 run();
