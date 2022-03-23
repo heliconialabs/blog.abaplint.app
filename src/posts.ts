@@ -7,6 +7,17 @@ export const posts: {
 
 posts.push(
   {
+    title: "Database migration completed",
+    date: "2022-03-23",
+    key: "database-migration-completed",
+    body: `abaplint.app now runs on a different database platform, no expected impact to users.
+<br>
+Job numbers will start at 1, the old database managed to complete 207425 jobs.
+<br>
+In case of any questions or bugs please email <a href="mailto:support@abaplint.app">support@abaplint.app</a>`,
+  },
+
+  {
     title: "Cross repository syntax check before merge",
     date: "2022-02-19",
     key: "new-cross-check-feature",
