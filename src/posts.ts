@@ -7,6 +7,15 @@ export const posts: {
 
 posts.push(
   {
+    title: "sci.abaplint.app deprecated",
+    date: "2022-04-15",
+    key: "sci-abaplint-app-deprecated",
+    body: `The sci.abaplint.app endpoint is now considered deprecated, and service has been terminated.
+<br><br>
+Docker image <a href="https://hub.docker.com/r/abaplint/abaplint-backend">https://hub.docker.com/r/abaplint/abaplint-backend</a> is still maintained, but must be run on own infrastructure.`,
+  },
+
+  {
     title: "Database migration completed",
     date: "2022-03-23",
     key: "database-migration-completed",
