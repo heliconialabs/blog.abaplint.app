@@ -7,6 +7,21 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.89.0",
+    date: "2022-04-19",
+    key: "abaplint-289-update",
+    body: `Note the following new and renamed rules,
+<ul>
+<li>new rule <a href="https://rules.abaplint.org/slow_parameter_passing/">slow_parameter_passing</a></li>
+<li>new rule <a href="https://rules.abaplint.org/classic_exceptions_overlap/">classic_exceptions_overlap</a></li>
+<li>new rule <a href="https://rules.abaplint.org/no_inline_in_optional_branches/">no_inline_in_optional_branches</a></li>
+<li>renamed rule pragma_placment -> <a href="https://rules.abaplint.org/pragma_style/">pragma_style</a> and extended</li>
+<li>renamed rule check_no_handler_pragma -> <a href="https://rules.abaplint.org/unnecessary_pragma/">unnecessary_pragma</a> and extended</li>
+<li>renamed rule local_testclass_location -> <a href="https://rules.abaplint.org/local_testclass_consistency/">local_testclass_consistency</a> and extended</li>
+</ul>`,
+  },
+
+  {
     title: "sci.abaplint.app deprecated",
     date: "2022-04-15",
     key: "sci-abaplint-app-deprecated",
