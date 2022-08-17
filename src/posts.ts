@@ -7,6 +7,17 @@ export const posts: {
 
 posts.push(
   {
+    title: "Disabled rules, updates",
+    date: "2022-08-17",
+    key: "disabled_rules_updates",
+    body: `The disabled rules statistics will now indicate if the rules are disabled or undefined in the configuration.<br>
+<br>
+If the rule is undefined, the code enabling the rule can be copied to clipboard,<br>
+<img class="shadow p-3 bg-white rounded" src="./disabled_rules_copy.gif">
+`,
+  },
+
+  {
     title: "Updated to abaplint 2.91.0",
     date: "2022-06-05",
     key: "abaplint-291-update",

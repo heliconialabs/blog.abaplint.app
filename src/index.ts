@@ -48,6 +48,7 @@ function run() {
   fs.copyFileSync(__dirname + "/../img/multiple_config.svg", OUTPUT + "multiple_config.svg");
   fs.copyFileSync(__dirname + "/../img/repo_relations.png", OUTPUT + "repo_relations.png");
   fs.copyFileSync(__dirname + "/../img/cross_check.svg", OUTPUT + "cross_check.svg");
+  fs.copyFileSync(__dirname + "/../img/disabled_rules_copy.gif", OUTPUT + "disabled_rules_copy.gif");
 }
 
 run();
