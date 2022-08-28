@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.92.1",
+    date: "2022-08-28",
+    key: "abaplint-292-update",
+    body: `Some skip settings have been changed, check <a href="https://github.com/abaplint/abaplint/pull/2658">release notes</a>`,
+  },
+
+  {
     title: "Disabled rules, updates",
     date: "2022-08-17",
     key: "disabled_rules_updates",
