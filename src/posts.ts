@@ -7,6 +7,17 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.93.0",
+    date: "2022-08-29",
+    key: "abaplint-293-update",
+    body: `New,
+<ul>
+<li>rule <a href="https://rules.abaplint.org/cds_comment_style/">cds_comment_style</a></li>
+<li>rule <a href="https://rules.abaplint.org/change_if_to_case/">change_if_to_case</a></li>
+</ul>`,
+  },
+
+  {
     title: "Updated to abaplint 2.92.1",
     date: "2022-08-28",
     key: "abaplint-292-update",
