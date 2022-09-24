@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "UML diagram max size increased",
+    date: "2022-09-24",
+    key: "maxsize220924",
+    body: `Large UML diagrams have previosly been skipped, now an error is shown, plus the max size has been doubled.`,
+  },
+
+  {
     title: "Updated to abaplint 2.93.0",
     date: "2022-08-29",
     key: "abaplint-293-update",
