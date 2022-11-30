@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.94.1",
+    date: "2022-11-30",
+    key: "abaplint-294-update",
+    body: `abaplint.app has been updated to 2.94.1, this includes new rule <a href="https://rules.abaplint.org/unnecessary_return/">unnecessary_return</a> and more quick fixes.`,
+  },
+
+  {
     title: "UML diagram max size increased",
     date: "2022-09-24",
     key: "maxsize220924",
