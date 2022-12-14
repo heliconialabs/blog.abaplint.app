@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "New configuration option noArtifactsOkay",
+    date: "2022-12-14",
+    key: "noartifactsokay",
+    body: `New confiugration option "noArtifactsOkay" abaplint-app.jsonc, which allows skipping the error for no ABAP artifacts found`,
+  },
+
+  {
     title: "Updated to abaplint 2.94.1",
     date: "2022-11-30",
     key: "abaplint-294-update",
