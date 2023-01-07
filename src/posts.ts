@@ -7,6 +7,15 @@ export const posts: {
 
 posts.push(
   {
+    title: "New package diagrams",
+    date: "2023-01-07",
+    key: "new-package-diagrams",
+    body: `Package coupling diagrams are now generated as SVGs,
+    <br>
+<img class="shadow p-3 bg-white rounded" src="./package_coupling.svg">`,
+  },
+
+  {
     title: "New configuration option noArtifactsOkay",
     date: "2022-12-14",
     key: "noartifactsokay",
