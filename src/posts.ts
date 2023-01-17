@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "UML diagram footers added",
+    date: "2023-01-17",
+    key: "uml-diagram-footers",
+    body: `UML diagrams will now include a footer with the SHA1 plus timestamp when it was generated.`,
+  },
+
+  {
     title: "New package diagrams",
     date: "2023-01-07",
     key: "new-package-diagrams",
