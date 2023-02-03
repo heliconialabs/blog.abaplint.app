@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Package coupling changes",
+    date: "2023-02-03",
+    key: "copuling-subfolder-blue",
+    body: `Package coupling diagrams with dependencies into subfolders will now display as blue.`,
+  },
+
+  {
     title: "UML diagram footers added",
     date: "2023-01-17",
     key: "uml-diagram-footers",
