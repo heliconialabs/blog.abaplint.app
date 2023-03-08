@@ -7,6 +7,15 @@ export const posts: {
 
 posts.push(
   {
+    title: "Cloud compatibility",
+    date: "2023-03-08",
+    key: "cloud-compatibility-void",
+    body: `The void type statistics now includes release, depcrecation and successor information,
+<br>
+<img class="shadow p-3 bg-white rounded" src="./cloud_compatibility.png">`,
+  },
+
+  {
     title: "Package coupling changes",
     date: "2023-02-03",
     key: "copuling-subfolder-blue",
