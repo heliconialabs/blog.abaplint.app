@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Method complexity statistics",
+    date: "2023-03-12",
+    key: "method-complexity-statistics",
+    body: `Method cyclomatic complexity has been added as a new statistics page.`,
+  },
+
+  {
     title: "Cloud compatibility",
     date: "2023-03-08",
     key: "cloud-compatibility-void",
