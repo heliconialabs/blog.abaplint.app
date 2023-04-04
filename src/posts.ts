@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.97.0",
+    date: "2023-04-04",
+    key: "abaplint-297-update",
+    body: `abaplint.app has been updated to 2.97.0, this includes new rules <a href="https://rules.abaplint.org/strict_sql/">strict_sql</a> and <a href="https://rules.abaplint.org/fully_type_itabs/">fully_type_itabs</a>.`,
+  },
+
+  {
     title: "Method complexity statistics",
     date: "2023-03-12",
     key: "method-complexity-statistics",
