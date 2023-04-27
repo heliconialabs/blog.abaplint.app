@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Updated to abaplint 2.98.0",
+    date: "2023-04-27",
+    key: "abaplint-298-update",
+    body: `abaplint.app has been updated to 2.98.0, this includes new rule <a href="https://rules.abaplint.org/select_single_full_key/">select_single_full_key</a>`,
+  },
+
+  {
     title: "Updated to abaplint 2.97.0",
     date: "2023-04-04",
     key: "abaplint-297-update",
