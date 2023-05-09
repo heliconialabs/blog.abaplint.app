@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "Lines over time",
+    date: "2023-04-27",
+    key: "lines-over-time",
+    body: `Lines over time statistics added,<br>
+<a href="https://abaplint.app/stats/oblomov-dev/abap2UI5/lines_over_time"><img class="shadow p-3 bg-white rounded" src="./lines_over_time.png" height="300"></a>`,
+  },
+
+  {
     title: "Updated to abaplint 2.98.0",
     date: "2023-04-27",
     key: "abaplint-298-update",
