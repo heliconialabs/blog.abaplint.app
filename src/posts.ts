@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "More historical stats",
+    date: "2023-07-09",
+    key: "lines-vs-tests",
+    body: `Number of unit tests over time, plus a new graph comparing lines and unit tests over time has been added.<br>
+<a href="https://abaplint.app/stats/sbcgua/ajson/lines_vs_tests"><img class="shadow p-3 bg-white rounded" src="./lines_vs_tests.png" height="300"></a>`,
+  },
+
+  {
     title: "Lines over time",
     date: "2023-04-27",
     key: "lines-over-time",

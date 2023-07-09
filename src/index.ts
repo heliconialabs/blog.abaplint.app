@@ -52,6 +52,7 @@ function run() {
   fs.copyFileSync(__dirname + "/../img/package_coupling.svg", OUTPUT + "package_coupling.svg");
   fs.copyFileSync(__dirname + "/../img/disabled_rules_copy.gif", OUTPUT + "disabled_rules_copy.gif");
   fs.copyFileSync(__dirname + "/../img/lines_over_time.png", OUTPUT + "lines_over_time.png");
+  fs.copyFileSync(__dirname + "/../img/lines_vs_tests.png", OUTPUT + "lines_vs_tests.png");
 }
 
 run();
