@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Average complexity & method length",
+    date: "2023-07-10",
+    key: "averages-07-10",
+    body: `Average cyclomatic complexity & average method length added as new insights`,
+  },
+
+  {
     title: "More historical stats",
     date: "2023-07-09",
     key: "lines-vs-tests",
