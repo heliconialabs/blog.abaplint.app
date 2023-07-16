@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "More and better suggestions",
+    date: "2023-07-16",
+    key: "more-suggest-07-10",
+    body: `More quick fixes will now trigger suggestions in the pull requests, plus bugfixes`,
+  },
+
+  {
     title: "Average complexity & method length",
     date: "2023-07-10",
     key: "averages-07-10",
