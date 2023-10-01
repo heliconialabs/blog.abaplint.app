@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Introducing Target Rules",
+    date: "2023-10-01",
+    key: "introducing-target-rules",
+    body: `Keep the code moving forward, see <a href="https://docs.abaplint.app">documentation</a> for details`,
+  },
+
+  {
     title: "More and better suggestions",
     date: "2023-07-16",
     key: "more-suggest-07-10",
