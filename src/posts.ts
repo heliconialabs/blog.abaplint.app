@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "Intra class call graph",
+    date: "2023-10-19",
+    key: "intra-class-call-graph",
+    body: `Display call graph between methods internally in a class,<br>
+<a href="https://abaplint.app/stats/abapGit/abapGit/intra_class_call_graph?name=ZCL_ABAPGIT_FOLDER_LOGIC"><img class="shadow p-3 bg-white rounded" src="./call_graph.svg"></a>`,
+  },
+
+  {
     title: "Introducing Target Rules",
     date: "2023-10-01",
     key: "introducing-target-rules",

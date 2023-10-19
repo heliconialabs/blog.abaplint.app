@@ -53,6 +53,7 @@ function run() {
   fs.copyFileSync(__dirname + "/../img/disabled_rules_copy.gif", OUTPUT + "disabled_rules_copy.gif");
   fs.copyFileSync(__dirname + "/../img/lines_over_time.png", OUTPUT + "lines_over_time.png");
   fs.copyFileSync(__dirname + "/../img/lines_vs_tests.png", OUTPUT + "lines_vs_tests.png");
+  fs.copyFileSync(__dirname + "/../img/call_graph.svg", OUTPUT + "call_graph.svg");
 }
 
 run();
