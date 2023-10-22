@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Void types sorting",
+    date: "2023-10-22",
+    key: "sort-void-types",
+    body: `Clicking the headers in the void types table will now sort the table, click again to change direction, <a href="https://abaplint.app/stats/abapGit/abapGit/void_types">try it out</a>`,
+  },
+
+  {
     title: "Intra class call graph",
     date: "2023-10-19",
     key: "intra-class-call-graph",
