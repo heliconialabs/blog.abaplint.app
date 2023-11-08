@@ -7,6 +7,14 @@ export const posts: {
 
 posts.push(
   {
+    title: "Object types statistics",
+    date: "2023-11-08",
+    key: "object-types-statistics",
+    body: `Object type statistics added,<br>
+    <a href="https://abaplint.app/stats/abapGit/abapGit/object_types"><img class="shadow p-3 bg-white rounded" src="./objecttypes.png"></a>`,
+  },
+
+  {
     title: "Void types sorting",
     date: "2023-10-22",
     key: "sort-void-types",
