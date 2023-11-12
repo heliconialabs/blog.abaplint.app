@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Parallel file changes",
+    date: "2023-11-12",
+    key: "parallel-file-changes",
+    body: `Parallel changes to identical filenames across active pull requests are now reported as observations`,
+  },
+
+  {
     title: "Object types statistics",
     date: "2023-11-08",
     key: "object-types-statistics",
