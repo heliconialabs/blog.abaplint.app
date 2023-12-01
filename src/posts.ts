@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Procedural vs OO stats",
+    date: "2023-12-01",
+    key: "procedural-vs-oo-stats",
+    body: `Procedural vs OO stats added, <a href="https://abaplint.app/stats/abapGit/abapGit/procedural_vs_oo">Example</a>`,
+  },
+
+  {
     title: "Parallel file changes",
     date: "2023-11-12",
     key: "parallel-file-changes",
