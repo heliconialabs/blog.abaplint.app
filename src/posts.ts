@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Disabled annotations links",
+    date: "2024-05-25",
+    key: "disabled-annotations-links",
+    body: `Disabled annotation issues now links to the source code`,
+  },
+
+  {
     title: "Procedural vs OO stats",
     date: "2023-12-01",
     key: "procedural-vs-oo-stats",
