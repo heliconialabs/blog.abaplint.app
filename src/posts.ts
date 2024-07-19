@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "abaplint updated to 2.112.0",
+    date: "2024-07-19",
+    key: "abaplint-21120",
+    body: `abaplint has been updated to 2.112.0, which will provide more precise syntax errors, and have less cascading errors`,
+  },
+
+  {
     title: "Disabled annotations links",
     date: "2024-05-25",
     key: "disabled-annotations-links",
