@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "abaplint updated to 2.113.0",
+    date: "2024-08-29",
+    key: "abaplint-21130",
+    body: `abaplint has been updated to 2.113.0, which includes 3 new rules`,
+  },
+
+  {
     title: "abaplint updated to 2.112.0",
     date: "2024-07-19",
     key: "abaplint-21120",
