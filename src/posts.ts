@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "New API usage statistics",
+    date: "2025-09-22",
+    key: "api-usage",
+    body: `Added statistics for API usage, see <a href="https://abaplint.app/stats/abapGit/abapGit/api_usage">example</a>`,
+  },
+
+  {
     title: "abaplint updated to 2.113.0",
     date: "2024-08-29",
     key: "abaplint-21130",
