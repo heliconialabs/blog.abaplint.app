@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "CDS lines + function module observation",
+    date: "2026-01-07",
+    key: "cds-lines-function-module-observation",
+    body: `Number of CDS lines added to the lines graph, and a new observation for function module changes.`,
+  },
+
+  {
     title: "New API usage statistics",
     date: "2025-09-22",
     key: "api-usage",
