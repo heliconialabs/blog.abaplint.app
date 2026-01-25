@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Tree Map visualization for packages",
+    date: "2026-01-25",
+    key: "tree-map-visualization-packages",
+    body: `New insight: Tree Map visualization for packages, see <a href="https://abaplint.app/stats/abapGit/abapGit/tree_map_lines">example</a>`,
+  },
+
+  {
     title: "CDS lines + function module observation",
     date: "2026-01-07",
     key: "cds-lines-function-module-observation",
