@@ -19,11 +19,11 @@
   "homepage": "https://github.com/heliconialabs/blog.abaplint.app#readme",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "@types/node": "^22.5.1",
-    "bootstrap": "^5.3.3",
-    "bootstrap-icons": "^1.11.3",
+    "@types/node": "^25.5.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.5.4",
+    "typescript": "^5.9.3",
     "yaserver": "^0.4.0"
   }
 }
