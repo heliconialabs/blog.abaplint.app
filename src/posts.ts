@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "Landing page refresh and new rules",
+    date: "2026-03-14",
+    key: "landing-page-refresh-and-new-rules",
+    body: `The landing page has been refreshed with a new design, and the following new rules have been added to abaplint: <a href="https://rules.abaplint.org/aff_and_xml/">aff_and_xml</a> and <a href="https://rules.abaplint.org/selection_screen_texts_missing/">selection_screen_texts_missing</a> for details.`,
+  },
+
+  {
     title: "Tree Map visualization for packages",
     date: "2026-01-25",
     key: "tree-map-visualization-packages",
