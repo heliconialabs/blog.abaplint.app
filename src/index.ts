@@ -24,11 +24,13 @@ function deleteFolderRecursive(p: string) {
 }
 
 function render(): string {
-  let r = "<br>";
+  let r = `<div class="section-divider"></div>`;
   for (const post of posts) {
-    r += `<h2>${post.title}</h2>
-    <i>${post.date}</i><br>
-    ${post.body}<br><br>`
+    r += `<div class="post-card">
+  <h2>${post.title}</h2>
+  <span class="post-date">${post.date}</span>
+  <div class="post-body">${post.body}</div>
+</div>`;
   }
   return r;
 }
@@ -41,7 +43,7 @@ function run() {
   fs.writeFileSync(OUTPUT + "index.html", header() + render() + footer());
 
   fs.copyFileSync(__dirname + "/../node_modules/bootstrap/dist/css/bootstrap.min.css", OUTPUT + "bootstrap.min.css");
-  fs.copyFileSync(__dirname + "/../node_modules/bootstrap-icons/font/bootstrap-icons.css", OUTPUT + "bootstrap-icons.css");
+  fs.copyFileSync(__dirname + "/style.css", OUTPUT + "style.css");
   fs.copyFileSync(__dirname + "/../img/favicon.png", OUTPUT + "favicon.png");
 
   fs.copyFileSync(__dirname + "/../img/observation_db_field_changed.svg", OUTPUT + "observation_db_field_changed.svg");
