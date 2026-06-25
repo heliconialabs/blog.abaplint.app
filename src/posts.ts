@@ -7,6 +7,13 @@ export const posts: {
 
 posts.push(
   {
+    title: "More filtering added to method length and complexity",
+    date: "2026-06-25",
+    key: "more-filtering-method-length-complexity",
+    body: `More filtering options have been added to the method length and complexity statistics, see <a href="https://abaplint.app/stats/abapGit/abapGit/method_length">example</a>, its now possible to filter per folder, including subfolders.`,
+  },
+
+  {
     title: "Landing page refresh and new rules",
     date: "2026-03-14",
     key: "landing-page-refresh-and-new-rules",
